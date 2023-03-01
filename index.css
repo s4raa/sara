@@ -1,0 +1,124 @@
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  /* Typography */
+  body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+  }
+  
+  h1, h2, h3 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+  }
+  
+  h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+  }
+  
+  h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+  }
+  
+  h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  p {
+	margin-bottom: 20px;
+  }
+  
+  /* Navigation */
+  header {
+	background-color: #ffffff;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+  }
+  
+  nav ul {
+	list-style: none;
+	text-align: right;
+  }
+  
+  nav li {
+	display: inline-block;
+	margin-left: 20px;
+  }
+  
+  nav a {
+	color: #333333;
+	text-decoration: none;
+	transition: color 0.2s;
+  }
+  
+  nav a:hover {
+	color: #0077be;
+  }
+  
+  /* Hero section */
+  #hero {
+	background-image: url('hero-background.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-color: #999 
+	color: #ffffff;
+	padding: 200px 0;
+	text-align: center;
+  }
+  
+  #hero h1 {
+	color: #ffffff;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  #hero p {
+	color: #ffffff;
+	font-size: 24px;
+	margin-bottom: 30px;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .cta-button {
+	background-color: #0077be;
+	border: none;
+	border-radius: 4px;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px 30px;
+	text-decoration: none;
+	transition: background-color 0.2s;
+  }
+  
+  .cta-button:hover {
+	background-color: #005ea3;
+  }
+ 
+  /* Latest news section */
+  #latest-news {
+	padding: 50px 0;
+	text-align: center;
+  }
+  
+  #latest-news h2 {
+	margin-bottom: 30px;
+  }
+#società {
+	width: 80%;
+}
+img {
+	width: 30%;
+	float: right;
+}
