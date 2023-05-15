@@ -1,124 +1,163 @@
-/* Reset CSS */
 * {
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
   }
   
-  /* Typography */
   body {
-	font-family: "Open Sans", sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
   }
   
-  h1, h2, h3 {
-	font-family: "Montserrat", sans-serif;
-	font-weight: 700;
-  }
-  
-  h1 {
-	font-size: 48px;
-	margin-bottom: 20px;
-  }
-  
-  h2 {
-	font-size: 36px;
-	margin-bottom: 20px;
-  }
-  
-  h3 {
-	font-size: 24px;
-	margin-bottom: 10px;
-  }
-  
-  p {
-	margin-bottom: 20px;
-  }
-  
-  /* Navigation */
   header {
-	background-color: #ffffff;
-	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	padding: 20px;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 1;
   }
   
   nav ul {
+	display: flex;
 	list-style: none;
-	text-align: right;
   }
   
   nav li {
-	display: inline-block;
-	margin-left: 20px;
+	margin-right: 20px;
   }
   
   nav a {
-	color: #333333;
+	color: #fff;
 	text-decoration: none;
-	transition: color 0.2s;
   }
   
-  nav a:hover {
-	color: #0077be;
-  }
-  
-  /* Hero section */
-  #hero {
-	background-image: url('hero-background.jpg');
-	background-position: center center;
+  .hero-image {
+	background-image: url("hero.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #999 
-	color: #ffffff;
-	padding: 200px 0;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .hero-text {
 	text-align: center;
   }
   
-  #hero h1 {
-	color: #ffffff;
-	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  .about {
+	background-color: #f2f2f2;
+	padding: 50px;
+	text-align: center;
   }
   
-  #hero p {
-	color: #ffffff;
-	font-size: 24px;
-	margin-bottom: 30px;
-	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  .activities {
+	padding: 50px;
+	text-align: center;
   }
   
-  .cta-button {
-	background-color: #0077be;
+  .row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 50px;
+  }
+  
+  .col {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	text-align: center;
+  }
+  
+  .col img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	margin-bottom: 20px;
+  }
+  
+  .contact {
+	background-color: #eee;
+	padding: 50px;
+	text-align: center;
+  }
+  
+  .contact form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .contact input,
+  .contact textarea {
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 100%;
+	border: 1px solid #ccc;
+  }
+  
+  .contact button {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
 	border: none;
-	border-radius: 4px;
-	color: #ffffff;
-	display: inline-block;
-	font-size: 16px;
-	padding: 15px 30px;
-	text-decoration: none;
-	transition: background-color 0.2s;
+	cursor: pointer;
   }
   
-  .cta-button:hover {
-	background-color: #005ea3;
+  
+  
+  
+  
+  
+	nav ul {
+	  list-style: none;
+	  margin: 0;
+	  padding: 0;
   }
- 
-  /* Latest news section */
-  #latest-news {
-	padding: 50px 0;
+  
+  nav ul li {
+	  display: inline-block;
+	  position: relative;
+  }
+  
+  nav ul li a {
+	  color: #e7e7e7;
+	  display: block;
+	  padding: 10px 20px;
+	  text-decoration: none;
+  }
+  
+  nav ul li:hover > ul {
+	  display: block;
+  }
+  
+  nav ul ul {
+	  display: none;
+	  position: absolute;
+	  top: 100%;
+  }
+  
+  nav ul ul li {
+	  display: block;
+  }
+  
+  nav ul ul li a {
+	  background-color: #7cd898;
+	  color: #fff;
+	  display: block;
+	  padding: 10px 20px;
+  }
+  
+  .center {
 	text-align: center;
-  }
+	margin: 100px;
+			  padding: 10px;
+		  }
   
-  #latest-news h2 {
-	margin-bottom: 30px;
-  }
-#società {
-	width: 80%;
-}
-img {
-	width: 30%;
-	float: right;
-}
+  
+  
