@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fantacalcio App</title>
+    <title>Fantavolley App</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Fantacalcio App</h1>
+    <h1>Fantavolley App</h1>
     <form id="team-form">
         <input type="text" id="team-name" placeholder="Nome squadra" required>
         <input type="number" id="team-score" placeholder="Punteggio" required>
@@ -17,7 +17,15 @@
     <h2>Squadre</h2>
     <ul id="team-list"></ul>
     <button id="declare-winner">Dichiara Vincitore</button>
+    <h3 id="winner-display"></h3>
+    <div id="error-message" class="hidden"></div>
+
+
+    <button id="toggle-theme">Modalità Notturna</button>
+
 
     <script src="script.js"></script>
 </body>
 </html>
+
+
